@@ -2,11 +2,12 @@
 
 body {
     font-family: 'Sora', sans-serif;
-    position: absolute;
-    top: 25%;
-    left: 35%;
-    width: 400px;
-    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .main__container {
